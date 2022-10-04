@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Modal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Making the <code>&lt;details&gt;</code> element look and behave like a modal.
+        </h1>
+
+        <p>By nesting inside a details element it is automaticly show when the
+            details is opened. And by nesting the overlay inside the summary, we can use that to
+            trigger a close.</p>
+        
+        <details>
+            <summary>
+                <div class="button">
+                    show me the modal
+                </div>
+                <div class="details-modal-overlay"></div>
+            </summary>
+            <div class="details-modal">
+                <div class="details-modal-close"></div>
+                <div class="details-modal-title">
+                    <h1>My Pop up window</h1>
+                </div>
+                <div class="details-modal-content">
+                    <p>You can click the outside the form close this modal.</p>
+                </div>
+            </div>
+        </details>
+    </div>
+</body>
+
+</html>

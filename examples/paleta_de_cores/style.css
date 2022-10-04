@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.construcao {
+    border-radius: 10px;
+}
+.const_1 {
+    background-color: #3A2C81;
+}
+.const_2 {
+    background-color: #4B71B7;
+}
+.const_3 {
+    background-color: #FBF7F7;
+}
+.const_4 {
+    background-color: #F4D24D;
+}
